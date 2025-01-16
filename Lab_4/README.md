@@ -38,3 +38,28 @@
 ### 4. Логика обработки изменений
 - Логирование изменений выполняется в сервисах `AuthorService` и `BookService` с использованием `ChangeLogRepository`.
 - Каждое изменение (создание, обновление, удаление) записывается в таблицу `change_logs`, а также отправляется уведомление через сервис `EmailService` (если настроены соответствующие условия для уведомлений).
+
+
+### 5. Скриншотики
+1) При удаление автора
+
+![image](https://github.com/user-attachments/assets/91b32f5c-e1ca-424b-ba6f-da5397b8b803)
+
+2) Логи измененеия
+
+![image](https://github.com/user-attachments/assets/c16fa779-49be-413d-b899-11dc5bc9dbc4)
+
+
+
+### 6.Чутка бреда - скрины по 2-3 лабам
+1) Отображение книг и авторов при возврате XML
+
+![image](https://github.com/user-attachments/assets/04516420-3485-4a44-96b4-da95c4442f40)
+![image](https://github.com/user-attachments/assets/b40da536-c65a-4e45-8acf-a1d720a16b50)
+
+
+2) Json по авторам
+
+   ![image](https://github.com/user-attachments/assets/79192b08-9f4a-47a7-aa20-a37a87378285)
+
+
