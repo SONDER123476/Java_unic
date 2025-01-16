@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="authors.xsl"?>
+<authors>
+    <author>
+        <id>1</id>
+        <firstName>Jane</firstName>
+        <lastName>Austen</lastName>
+        <email>jane.austen@example.com</email>
+    </author>
+    <author>
+        <id>2</id>
+        <firstName>Mark</firstName>
+        <lastName>Twain</lastName>
+        <email>mark.twain@example.com</email>
+    </author>
+    <author>
+        <id>3</id>
+        <firstName>John</firstName>
+        <lastName>Doe</lastName>
+        <email>johndoe@example.com</email>
+    </author>
+</authors>
