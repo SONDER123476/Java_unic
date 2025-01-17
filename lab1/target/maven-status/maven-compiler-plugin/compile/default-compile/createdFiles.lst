@@ -1,0 +1,11 @@
+servlets\PostServlet.class
+repositories\PostRepository.class
+services\UserService.class
+servlets\UserServlet.class
+models\dto\User.class
+models\UserEntity.class
+servlets\MainServlet.class
+models\dto\Post.class
+services\PostService.class
+repositories\UserRepository.class
+models\PostEntity.class

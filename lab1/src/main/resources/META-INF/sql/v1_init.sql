@@ -1,0 +1,16 @@
+DROP  TABLE IF EXISTS posts CASCADE;
+DROP  TABLE IF EXISTS users CASCADE;
+
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE posts (
+    id SERIAL PRIMARY KEY ,
+    title VARCHAR(255) NOT NULL,
+    content TEXT NOT NULL,
+    user_id int NOT NULL,
+    CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users(id)
+    ON DELETE CASCADE
+);
